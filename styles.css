@@ -1,0 +1,184 @@
+* {
+    font-family: Helvetica, sans-serif;
+}
+.Tabs{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.tab {
+    background-color: blueviolet;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.main-column {
+    display: flex;
+    flex-direction: column;
+    max-width:1200px;
+
+    background-color: lightblue;
+    margin:auto;
+
+}
+
+.newsCard11{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #ccc;
+    transition: box-shadow .3s;
+    background: #fff;
+    float: left;
+    margin:5px;
+    padding:5px;
+}
+.newsCard11:hover {
+    box-shadow: 0 0 20px rgba(33,33,33,.2);
+}
+.newsCard1Image{
+
+
+
+ }
+.newsCard1Text{
+
+
+
+}
+
+
+img{
+      max-width: 100%;
+      max-height:100%;
+      object-fit: cover;
+      display: block;
+  }
+.Title {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: blue;
+}
+.newsSection{
+    display: flex;
+    flex-direction: column;
+}
+.row1 {
+    display: flex;
+    height:750px;
+    flex-direction: row;
+
+
+}
+.row2 {
+    display: flex;
+    height:300px;
+    flex-direction: row;
+    
+}
+.row3 {
+    display: flex;
+
+    flex-direction: row;
+
+
+
+}
+.row2newscard {
+    display: flex;
+    flex-direction: row;
+
+    border: 2px solid #ccc;
+    transition: box-shadow .3s;
+    background: #fff;
+    float: left;
+    margin:5px;
+    padding:5px;
+}
+.row2newscard:hover {
+    box-shadow: 0 0 20px rgba(33,33,33,.2);
+}
+.row3newscard {
+    display: flex;
+    flex-direction: row;
+    border: 2px solid #ccc;
+    transition: box-shadow .3s;
+    background: #fff;
+    float: left;
+    margin:5px;
+    padding:5px;
+}
+.row3newscard:hover {
+    box-shadow: 0 0 20px rgba(33,33,33,.2);
+}
+.row1col1 {
+    display: flex;
+    flex:3;
+    flex-direction: column;
+
+}
+.row1col2 {
+    display: flex;
+    flex:2;
+    flex-direction: column;
+
+
+}
+.newsCard12 {
+    display: flex;
+    flex-direction: row;
+    flex:1;
+    border: 2px solid #ccc;
+    transition: box-shadow .3s;
+    background: #fff;
+    float: left;
+    margin:5px;
+    padding:5px;
+
+}
+.newsCard12:hover {
+    box-shadow: 0 0 20px rgba(33,33,33,.2);
+}
+.row1col2rowtext {
+    display: flex;
+    flex:1;
+    flex-direction: row;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.imgContainerrow1col2{
+ flex:2;
+}
+.row2text {
+    display: flex;
+    flex-direction: row;
+    flex:1;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.row2img {
+    display: flex;
+    flex-direction: row;
+    flex:2;
+}
+.row3text {
+    display: flex;
+    flex-direction: row;
+    flex:1;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.row3img {
+    display: flex;
+    flex-direction: row;
+    flex:2;
+}
+
+
+
+
