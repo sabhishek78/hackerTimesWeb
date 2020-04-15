@@ -241,7 +241,7 @@ h1{
 }
 .newsCard12TextSection {
     display: flex;
-    
+
     flex-direction: column;
 }
 /*.newsCard12ImageSection{*/
